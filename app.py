@@ -162,7 +162,6 @@ st.markdown("---")
 
 # ---------------- Generate report ----------------
 if st.button("📄 Generate Detailed Report"):
-    .badge-good { color: #063; font-weight:700; }
     # BMI
     bmi_val, bmi_cat = calculate_bmi(weight, height)
     bp_score, bp_cat = get_bp_category(systolic, diastolic)
@@ -211,6 +210,7 @@ if st.button("📄 Generate Detailed Report"):
 # ---------------- Footer / disclaimer ----------------
 st.markdown("---")
 st.markdown("<p class='muted small'><b>Clinical disclaimer:</b> This app provides generalized guidance based on standard clinical categories. It is NOT a diagnostic tool. Always consult a licensed physician for diagnosis, medication, and treatment decisions.</p>", unsafe_allow_html=True)
+
 
 
 
