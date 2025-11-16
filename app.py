@@ -1,7 +1,7 @@
 import streamlit as st
 
 # ---------------- Page config & theme ----------------
-st.set_page_config(page_title="Razeena's Med App - Detailed Advice", page_icon="🩺", layout="centered")
+st.set_page_config(page_title="Naseem's Med App - Detailed Advice", page_icon="🩺", layout="centered")
 
 st.markdown(
     """
@@ -20,7 +20,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-st.markdown("<h1 style='text-align:center; color:#72b3ff;'>🩺 Naseem's Medical App — Detailed Remedies</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center; color:#72b3ff;'>🩺 Razeena's Medical App — Detailed Remedies</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center; color:#BFE1FF;'>Professional-style advice (informational only)</p>", unsafe_allow_html=True)
 st.markdown("---")
 
@@ -210,4 +210,5 @@ if st.button("📄 Generate Detailed Report"):
 # ---------------- Footer / disclaimer ----------------
 st.markdown("---")
 st.markdown("<p class='muted small'><b>Clinical disclaimer:</b> This app provides generalized guidance based on standard clinical categories. It is NOT a diagnostic tool. Always consult a licensed physician for diagnosis, medication, and treatment decisions.</p>", unsafe_allow_html=True)
+
 
